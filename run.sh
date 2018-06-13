@@ -10,7 +10,7 @@ export PYTHONPATH=$PYTHONPATH:$DIR:$DIR/slim:$DIR/object_detection
 
 # 定义各目录
 output_dir= /output# 训练目录
-dataset_dir=/data/zhoujia0309/data
+dataset_dir=/data/zhoujia0309/ssd
 train_dir=$output_dir/train
 checkpoint_dir=$train_dir
 eval_dir=$output_dir/eval
